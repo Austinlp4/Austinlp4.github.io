@@ -461,7 +461,7 @@ ul#nav li.current a { color: rgb(224, 187, 113); }
 #portfolio {
    background: #ebeeee;
    padding-top: 90px;
-   padding-bottom: 60px;
+   /* padding-bottom: 60px; */
 }
 #portfolio h1 {
    font: 15px/24px 'opensans-semibold', sans-serif;
@@ -473,12 +473,16 @@ ul#nav li.current a { color: rgb(224, 187, 113); }
 }
 
 /* Portfolio Content */
-#portfolio-wrapper .columns { margin-bottom: 36px; }
+#portfolio-wrapper{
+   display: flex;
+   justify-content: space-evenly;
+}
+
 .portfolio-item .item-wrap {
    background: #fff;
    overflow: hidden;
    position: relative;
-
+   width: 300px;
    -webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
