@@ -95,7 +95,7 @@ header .social li {
    padding: 0;
 }
 header .social li a { color: #fff; }
-header .social li a:hover { color: #11ABB0; }
+header .social li a:hover { opacity: 0.6 }
 
 /* scrolldown link */
 header .scrolldown a {
@@ -187,10 +187,13 @@ ul#nav li.current a { color: rgb(224, 187, 113); }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: rgb(24, 38, 48);
+   background-image: url('./aboutme.png');
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 
 #about a, #about a:visited  { color: #fff; }
@@ -219,7 +222,7 @@ ul#nav li.current a { color: rgb(224, 187, 113); }
 #about .main-col { padding-right: 5%; }
 #about .download .button {
    margin-top: 6px;
-   background:black;
+   background:rgb(93, 178, 235);
 }
 #about .download .button:hover {
    background: #fff;
@@ -230,7 +233,9 @@ ul#nav li.current a { color: rgb(224, 187, 113); }
    font-size: 20px;
 }
 
-
+#about-cont {
+   margin-left: 30%;
+}
 /* ------------------------------------------------------------------ */
 /* d. Resume Section
 /* ------------------------------------------------------------------ */
